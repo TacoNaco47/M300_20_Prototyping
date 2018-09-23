@@ -123,6 +123,7 @@ Folgende Arbeiten müssen gemacht werden:
 Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und Teil des GNU-Projekts. Sie ist heute auf vielen unixoiden Systemen die Standard-Shell.
 
 **Administration**
+
 | Befehl                                    | Beschreibung                                         |
 | ----------------------------------------- | ---------------------------------------------------- | 
 | `sudo [-i]`                               | Superuser werden (-i = permanent für aktive Session) |
@@ -131,6 +132,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | `sudo shutdown -h now`                    | OS-Shutdown (Herunterfahren)                         |
 
 **Filesystem**
+
 | Befehl        | Beschreibung                                      |
 | ------------- | ------------------------------------------------- | 
 | `ls`          | Verzeichnis-Inhalt anzeigen (list)                |
@@ -143,6 +145,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | `w`           | Auslastung CPU                                    |
 
 **Netzwerk**
+
 | Befehl                    | Beschreibung                                                      |
 | ------------------------- | ----------------------------------------------------------------- | 
 | `ifconfig`                | Ausgabe der eigenen konfigurierten IP-Parameter (z.B. IP-Adresse) |
@@ -151,6 +154,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | `net lookup <hostname>`   | Namensauflösung eines Hosts (z.B. google.com)                     |
 
 **Prozesse**
+
 | Befehl        | Beschreibung                      |
 | ------------- | --------------------------------- | 
 | `ps -ef`      | Anzeige aktiver Prozesse          |
@@ -158,6 +162,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | `kill <pid>`  | Prozess gem. Prozess-ID beenden   |
 
 **Hilfsprogramme**
+
 | Programm      | Befehl                            | Beschreibung                                                                          |
 | ------------- | --------------------------------- | ------------------------------------------------------------------------------------- |
 | `curl`        | `curl http://<server>`            | Webseite oder HTTP REST Service aufrufen & Inhalt ausgeben                            |
