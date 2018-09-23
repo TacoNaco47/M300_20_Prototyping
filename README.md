@@ -184,6 +184,7 @@ Die Pakete liegen im **Debian-Paketformat** (.deb) vor, in dem auch die jeweilig
 für ein Programm auch eventuell erforderliche Programmbibliotheken mit heruntergeladen und intalliert.
 
 **APT-Befehle**
+
 | Befehl                            | Beschreibung                                                |
 | --------------------------------- | ----------------------------------------------------------- | 
 | `sudo apt-get update`             | Repositories aktualisieren                                  |
