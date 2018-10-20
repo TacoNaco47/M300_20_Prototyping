@@ -15,6 +15,7 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung eines vollständi
 | 22.08.2018    | Erstellung des Repositorys und der README.md-Datei                                 |    MBL   |
 | 23.09.2018    | Einleitung, Voraussetzungen, Inhaltsverzeichnis & Kapitel 1 erarbeitet             |    MBL   |
 | 25.09.2018    | Restliche Kapitel fertiggestellt                                                   |    MBL   |
+| 20.10.2018    | Verknüpfungen angepasst                                                            |    MBL   |
 |      ...      | ...                                                                                |    ...   |
 
 #### Voraussetzungen
@@ -24,21 +25,20 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung eines vollständi
 * [X] Vagrant Box "ubuntu/trusty64"
 
 #### Inhaltsverzeichnis
-* 01 - [Linux](https://github.com/TacoTaco47/M300#-01---github-account)
-* 02 - [Versionsverwaltung](https://github.com/TacoTaco47/M300#--02---git-client)
-* 03 - [Apache & MySQL](https://github.com/TacoTaco47/M300#--03---virtualbox)
-* 04 - [NodeJS & MogoDB](https://github.com/TacoTaco47/M300#--04---vagrant)
-* 05 - [Software-Konfiguration](https://github.com/TacoTaco47/M300#-05---visual-studio-code)
-* 06 - [Service-Konfiguration](https://github.com/TacoTaco47/M300#-05---visual-studio-code)
-* 07 - [Fazit / Reflexion](https://github.com/TacoTaco47/M300#-06---fazit--reflexion)
-* 08 - [Quellenverzeichnis](https://github.com/TacoTaco47/M300#-07---quellenverzeichnis)
+* 01 - [Linux](https://github.com/TacoNaco47/M300_20_Prototyping#-01---linux)
+* 02 - [Versionsverwaltung](https://github.com/TacoNaco47/M300_20_Prototyping#-02---versionsverwaltung)
+* 03 - [Apache & MySQL](https://github.com/TacoNaco47/M300_20_Prototyping#-03---apache--mysql)
+* 04 - [NodeJS & MogoDB](https://github.com/TacoNaco47/M300_20_Prototyping#-04---nodejs--mongodb)
+* 05 - [Software-Konfiguration](https://github.com/TacoNaco47/M300_20_Prototyping#-05---software-konfiguration)
+* 06 - [Service-Konfiguration](https://github.com/TacoNaco47/M300_20_Prototyping#-06---service-konfiguration)
+* 07 - [Reflexion](https://github.com/TacoNaco47/M300_20_Prototyping#zusammenfassung-5)
 
 ___
 
-![](XXX "Bild") 01 - Linux
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Linux_36x36.png "Linux") 01 - Linux
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Ziel dieses Abschnitts ist die Einrichtung der Vagrant Box mit dem Betriebssystem "Ubuntu-Server 14.04"
 
@@ -276,10 +276,10 @@ Bedürfnisse an.
 
 
 
-![](XXX "Bild") 02 - Versionsverwaltung
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Versionsverwaltung_36x36.png "Versionsverwaltung") 02 - Versionsverwaltung
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird. Alle Versionen werden in einem Archiv mit Zeitstempel und Benutzerkennung gesichert und können später wiederhergestellt bzw. abgerufen werden. Versionsverwaltungssysteme werden typischerweise in der Softwareentwicklung eingesetzt, um Quelltexte zu verwalten. Allerdings werden solche Systeme auch bei Büroanwendungen oder Content-Management-Systeme (CMS) eingesetzt. Bekannte Vertreter sind Git (verteiltes System) oder der Team Foundation Server (zentrales System). 
 
@@ -337,10 +337,10 @@ Ein **Repository** ist ein verwaltetes Verzeichnis zur Speicherung und Beschreib
 
 
 
-![](XXX "Bild") 03 - Apache + MySQL
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Apache_36x36.png "Apache") 03 - Apache + MySQL
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Nach den vorhergehenden Theorie-Inputs geht es nun mehr und mehr in die Praxis. In diesem Abschnitt wird der Apache Webserver installiert und die MySQL-Datenbank auf der Vagrant-VM eingerichtet.
 
@@ -395,7 +395,7 @@ Installiert wird der Webserver (Apache) inkl. dem CGI-Modul wie folgt:
     ```Shell
       $ sudo a2enmod gi
     ```
-    > Hier kann es zu folgender "Fehlermeldung" kommen: ![Fehlermeldung](XXX "asdf"). Diese kann aber gemäss [diesem Forum-Post](https://askubuntu.com/questions/683126/1404-your-mpm-seems-to-be-threaded-selecting-cgid-instead-of-cgi-module-cgid) ignoriert werden.
+    > Hier kann es zu folgender "Fehlermeldung" kommen: ![Fehlermeldung](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Fehlermeldung_CGI-Modul_Apache.png "Bild"). Diese kann aber gemäss [diesem Forum-Post](https://askubuntu.com/questions/683126/1404-your-mpm-seems-to-be-threaded-selecting-cgid-instead-of-cgi-module-cgid) ignoriert werden.
     
 6. Service-Neustart durchführen:
     ```Shell
@@ -455,7 +455,7 @@ Alle bauen APIs (Programmierschnittstellen). Grob geschätzt bestehen 80% Prozen
 #### Anwendungsbeispiel
 Den fachlichen Hintergrund des Beispiel-API bildet ein einfaches Shop-System. Das Domainmodell des Shops besteht aus den Entitäten Customer, Order und Product. Die untenstehende Abbildung zeigt deren Beziehungen, URIs sowie JSON-Repräsentationen:
 
-[Beispiel](XXX "asdf")
+[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/ample.png "Beispiel REST")
 
 Eine Ressource im REST-Kontext ist eine Abstraktion, die ein "Ding" referenziert. Dieses Ding kann z.B. ein einzelner Kunde, eine Liste aller Kunden oder auch eine Liste von Kunden mit dem Namen 'Meier' sein. Ressourcen werden über URIs identifiziert. So identifiziert der URI `/customers` die Liste aller Kunden und die Ressource `/customer/1` den Kunden mit der ID 1. Neben einer Identität besitzen Ressourcen eine oder mehrere Repräsentationen. In diesem Anwendungsbeispiel werden Ressourcen in JSON repräsentiert und in diesem Format auch zwischen Client und Server übertragen.
 
@@ -668,10 +668,10 @@ Durch das Zusammenspiel von REST und CGI kann ein HTTP Server dynamisch (HTTP GE
 
 
 
-![](XXX "Bild") 04 - NodeJS + MongoDB
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/NodeJS_36x36.png "NodeJS") 04 - NodeJS + MongoDB
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Neben MySQL kann auch die MongoDB-Anwendung eingesetzt werden. Dieser Variante widmen wir uns nun in diesem Kapitel.
 
@@ -852,10 +852,10 @@ Der Einsatz von MongoDBs ist in folgenden Szenarien relevant:
 **MongoDB** ist eine der marktführenden NoSQL-Datenbanken und ein sogenannter Document Store. MongoDB wurde für die heutige moderne IT-Landschaft konzipiert und erlaubt eine agilere Entwicklung und höhere Skalierbarkeit von Anwendungen.
 
 
-![](XXX "Bild") 05 - Software-Konfiguration
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Software-Konfiguration_36x36.png "Software-Konfiguration") 05 - Software-Konfiguration
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Das war es grundsätzlich schon mit der Praxis! Wir wollen jetzt in diesem Abschnitt noch ein wenig vertiefter in die Strukturen von Linux- bzw. Unix-Systemen einsteigen.
 
@@ -993,10 +993,10 @@ Man unterscheidet zwischen Hardlinks und symbolischen (oder Soft-)links:
 sed, cat etc. sind Tools zur Bearbeitung von Konfigurationsdateien.
 
 
-![](XXX "Bild") 06 - Service-Konfiguration
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Service-Konfiguration_36x36.png "Service-Konfiguration") 06 - Service-Konfiguration
 ======
 
-> [⇧ **Nach oben**](XXX)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
 
 Nach den vorhergehenden Theorie-Inputs geht es nun mehr und mehr in die Praxis. In diesem Abschnitt wird der Apache Webserver installiert und die MySQL-Datenbank eingerichtet.
 
@@ -1094,3 +1094,9 @@ Der Cron-Daemon ist ein Dienst, der automatisch Skripte und Programme zu vorgege
 
 Anacron ist ein cron-ähnlicher Taskplaner, allerdings erfordert er nicht das kontinuierliche Laufen des Systems. Er kann zum Ausführen von täglich, wöchentlich oder monatlich (und ab Ubuntu 14.04 auch stündlich) anstehenden Aufträgen verwendet werden, die normalerweise von cron ausgeführt werden.
 
+![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Reflexion_36x36.png "Reflexion") 07 - Reflexion
+======
+
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+
+Die Erarbeitung dieses Abschnittes hat mir sehr viel Freude bereitet und ich konnte einiges lernen. Jedoch waren die Aufgabenstellungen teilweise etwas unkalr oder sogar falsch formuliert, wodurch ich viel Geduld und Zeit aufwenden musste. Mit meinem Ergebnis bin ich jedoch sehr zufrieden und ich hoffe, dass durch diese Dokumentation bzw. durch dieses Repository die Aufgaben verständlicher wirken.
