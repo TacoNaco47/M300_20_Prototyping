@@ -395,7 +395,8 @@ Installiert wird der Webserver (Apache) inkl. dem CGI-Modul wie folgt:
     ```Shell
       $ sudo a2enmod gi
     ```
-    > Hier kann es zu folgender "Fehlermeldung" kommen: ![Fehlermeldung](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Fehlermeldung_CGI-Modul_Apache.png "Bild"). Diese kann aber gemäss [diesem Forum-Post](https://askubuntu.com/questions/683126/1404-your-mpm-seems-to-be-threaded-selecting-cgid-instead-of-cgi-module-cgid) ignoriert werden.
+    > Hier kann es zu folgender "Fehlermeldung" kommen: ![Fehlermeldung](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Fehlermeldung_CGI-Modul_Apache.png "Bild")
+    Die Meldung kann aber gemäss [diesem Forum-Post](https://askubuntu.com/questions/683126/1404-your-mpm-seems-to-be-threaded-selecting-cgid-instead-of-cgi-module-cgid) ignoriert werden.
     
 6. Service-Neustart durchführen:
     ```Shell
@@ -455,7 +456,7 @@ Alle bauen APIs (Programmierschnittstellen). Grob geschätzt bestehen 80% Prozen
 #### Anwendungsbeispiel
 Den fachlichen Hintergrund des Beispiel-API bildet ein einfaches Shop-System. Das Domainmodell des Shops besteht aus den Entitäten Customer, Order und Product. Die untenstehende Abbildung zeigt deren Beziehungen, URIs sowie JSON-Repräsentationen:
 
-[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/ample.png "Beispiel REST")
+[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/sample.png "Beispiel REST")
 
 Eine Ressource im REST-Kontext ist eine Abstraktion, die ein "Ding" referenziert. Dieses Ding kann z.B. ein einzelner Kunde, eine Liste aller Kunden oder auch eine Liste von Kunden mit dem Namen 'Meier' sein. Ressourcen werden über URIs identifiziert. So identifiziert der URI `/customers` die Liste aller Kunden und die Ressource `/customer/1` den Kunden mit der ID 1. Neben einer Identität besitzen Ressourcen eine oder mehrere Repräsentationen. In diesem Anwendungsbeispiel werden Ressourcen in JSON repräsentiert und in diesem Format auch zwischen Client und Server übertragen.
 
