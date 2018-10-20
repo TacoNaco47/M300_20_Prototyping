@@ -9,7 +9,7 @@ Die nachstehende Dokumentation wurde von Michael Blickenstorfer im Rahmen des Mo
 erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung eines vollständig funktionsfähigen Web-Servers mit Apache und einer MySQL-DB benötigt.
 
 #### Revision History
-
+https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/RESTSample.png
 | Datum         | Änderungen                                                                         |  Kürzel  |
 | ------------- |:-----------------------------------------------------------------------------------| :------: |
 | 22.08.2018    | Erstellung des Repositorys und der README.md-Datei                                 |    MBL   |
@@ -456,7 +456,7 @@ Alle bauen APIs (Programmierschnittstellen). Grob geschätzt bestehen 80% Prozen
 #### Anwendungsbeispiel
 Den fachlichen Hintergrund des Beispiel-API bildet ein einfaches Shop-System. Das Domainmodell des Shops besteht aus den Entitäten Customer, Order und Product. Die untenstehende Abbildung zeigt deren Beziehungen, URIs sowie JSON-Repräsentationen:
 
-[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/restsample.png "Beispiel REST")
+[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/RESTSample.png "Beispiel REST")
 
 Eine Ressource im REST-Kontext ist eine Abstraktion, die ein "Ding" referenziert. Dieses Ding kann z.B. ein einzelner Kunde, eine Liste aller Kunden oder auch eine Liste von Kunden mit dem Namen 'Meier' sein. Ressourcen werden über URIs identifiziert. So identifiziert der URI `/customers` die Liste aller Kunden und die Ressource `/customer/1` den Kunden mit der ID 1. Neben einer Identität besitzen Ressourcen eine oder mehrere Repräsentationen. In diesem Anwendungsbeispiel werden Ressourcen in JSON repräsentiert und in diesem Format auch zwischen Client und Server übertragen.
 
