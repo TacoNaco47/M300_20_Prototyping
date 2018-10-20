@@ -456,7 +456,7 @@ Alle bauen APIs (Programmierschnittstellen). Grob geschätzt bestehen 80% Prozen
 #### Anwendungsbeispiel
 Den fachlichen Hintergrund des Beispiel-API bildet ein einfaches Shop-System. Das Domainmodell des Shops besteht aus den Entitäten Customer, Order und Product. Die untenstehende Abbildung zeigt deren Beziehungen, URIs sowie JSON-Repräsentationen:
 
-[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/sample.png "Beispiel REST")
+[Beispiel](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/restsample.png "Beispiel REST")
 
 Eine Ressource im REST-Kontext ist eine Abstraktion, die ein "Ding" referenziert. Dieses Ding kann z.B. ein einzelner Kunde, eine Liste aller Kunden oder auch eine Liste von Kunden mit dem Namen 'Meier' sein. Ressourcen werden über URIs identifiziert. So identifiziert der URI `/customers` die Liste aller Kunden und die Ressource `/customer/1` den Kunden mit der ID 1. Neben einer Identität besitzen Ressourcen eine oder mehrere Repräsentationen. In diesem Anwendungsbeispiel werden Ressourcen in JSON repräsentiert und in diesem Format auch zwischen Client und Server übertragen.
 
@@ -813,7 +813,7 @@ Der Einsatz von MongoDBs ist in folgenden Szenarien relevant:
         db.adressbuch.find( { "adresse.ort": /bourg/i } )
         ```
 
-####Praxisbeispiel
+#### Praxisbeispiel
 1. Aus MongoDB-CLI mit `CTRL + C` herausgehen
 2. Temporäres Verzeichnis erstellen:
     ```Shell
@@ -866,7 +866,7 @@ Der Begriff **etc** kommt von `et cetera` ("alles übrige"). Oftmals ist dabei a
 
 `/etc` enthält Konfigurations- und Informationsdateien des Basissystems. Zum Beispiel fstab, hosts, lsb-release oder blkid.tab. Die hier liegenden Konfigurationsdateien können dabei durch gleichnamige Konfigurationsdateien im Homeverzeichnis überlagert werden (z.B. bash -> .bashrc).
 
-####Die wichtigsten Unterverzeichnisse
+#### Die wichtigsten Unterverzeichnisse
 * /etc/default:
     * Konfigurationsdateien für den Start von Diensten
 * /etc/profile.d:
@@ -955,7 +955,7 @@ Man unterscheidet zwischen Hardlinks und symbolischen (oder Soft-)links:
 * **Symbolischer Link**
 <br> Symbolische Verknüpfungen (oder "Softlinks") wurden geschaffen, um diese Unzulänglichkeit der Hardlinks zu umgehen. Sie funktionieren ähnlich wie die HTML-Links auf Webseiten. Ein symbolischer Link ist einfach eine kleine Datei bei der das 1-Bit gesetzt ist und die den Pfad des Zieles enthält.
 
-####Praxisbeispiel
+#### Praxisbeispiel
 1. Datei erstellen und dann mit einem Hardlink verknüpfen:
     ```Shell
         $ cat <<%EOF% >zahlen
