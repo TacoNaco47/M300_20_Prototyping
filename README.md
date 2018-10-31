@@ -16,6 +16,7 @@ erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung eines vollständi
 | 23.09.2018    | Einleitung, Voraussetzungen, Inhaltsverzeichnis & Kapitel 1 erarbeitet             |    MBL   |
 | 25.09.2018    | Restliche Kapitel fertiggestellt                                                   |    MBL   |
 | 20.10.2018    | Verknüpfungen angepasst                                                            |    MBL   |
+| 31.10.2018    | Kleinere Verbesserungen vorgenommen                                                |    MBL   |
 |      ...      | ...                                                                                |    ...   |
 
 #### Voraussetzungen
