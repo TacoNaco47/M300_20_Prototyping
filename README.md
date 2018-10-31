@@ -9,7 +9,7 @@ Die nachstehende Dokumentation wurde von Michael Blickenstorfer im Rahmen des Mo
 erarbeitet und zeigt alle Schritte auf, die es zur Einrichtung eines vollständig funktionsfähigen Web-Servers mit Apache und einer MySQL-DB benötigt.
 
 #### Revision History
-https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/RESTSample.png
+
 | Datum         | Änderungen                                                                         |  Kürzel  |
 | ------------- |:-----------------------------------------------------------------------------------| :------: |
 | 22.08.2018    | Erstellung des Repositorys und der README.md-Datei                                 |    MBL   |
@@ -38,7 +38,7 @@ ___
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Linux_36x36.png "Linux") 01 - Linux
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Ziel dieses Abschnitts ist die Einrichtung der Vagrant Box mit dem Betriebssystem "Ubuntu-Server 14.04"
 
@@ -148,7 +148,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | ------------------------- | ----------------------------------------------------------------- | 
 | `ifconfig`                | Ausgabe der eigenen konfigurierten IP-Parameter (z.B. IP-Adresse) |
 | `netstat -a`              | Ausgabe verwendeter Netzwerk-Ports                                |
-| `netstat -tulpen`         | " dito                                                            |
+| `netstat -tulpen`         | *dito*                                                            |
 | `net lookup <hostname>`   | Namensauflösung eines Hosts (z.B. google.com)                     |
 
 **Prozesse**
@@ -156,7 +156,7 @@ Bash steht für **Bourne-again shell** und ist eine quelloffene Unix-Shell und T
 | Befehl        | Beschreibung                      |
 | ------------- | --------------------------------- | 
 | `ps -ef`      | Anzeige aktiver Prozesse          |
-| `top`         | " dito (top = table of processes) |
+| `top`         | *dito* (top = table of processes) |
 | `kill <pid>`  | Prozess gem. Prozess-ID beenden   |
 
 **Hilfsprogramme**
@@ -279,7 +279,7 @@ Bedürfnisse an.
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Versionsverwaltung_36x36.png "Versionsverwaltung") 02 - Versionsverwaltung
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird. Alle Versionen werden in einem Archiv mit Zeitstempel und Benutzerkennung gesichert und können später wiederhergestellt bzw. abgerufen werden. Versionsverwaltungssysteme werden typischerweise in der Softwareentwicklung eingesetzt, um Quelltexte zu verwalten. Allerdings werden solche Systeme auch bei Büroanwendungen oder Content-Management-Systeme (CMS) eingesetzt. Bekannte Vertreter sind Git (verteiltes System) oder der Team Foundation Server (zentrales System). 
 
@@ -322,25 +322,28 @@ Markdown-Dateien (.md) können über die Weboberfläche von GitLab oder GitHub e
 
 ### Zusammenfassung
 ***
-Ein **Repository** ist ein verwaltetes Verzeichnis zur Speicherung und Beschreibung von digitalen Objekten für ein digitales Archiv. Bei den verwalteten Objekten kann es sich beispielsweise um Programme (Software-Repository), Publikationen (Dokumentenserver), Datenmodelle (Metadaten-Repository) oder betriebswirtschaftliche Verfahren handeln. Häufig beinhaltet ein Repository auch Funktionen zur Versionsverwaltung der verwalteten Objekte.
 
-**Git** ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
+**Repository**
+> Ein Repository ist ein verwaltetes Verzeichnis zur Speicherung und Beschreibung von digitalen Objekten für ein digitales Archiv. Bei den verwalteten Objekten kann es sich beispielsweise um Programme (Software-Repository), Publikationen (Dokumentenserver), Datenmodelle (Metadaten-Repository) oder betriebswirtschaftliche Verfahren handeln. Häufig beinhaltet ein Repository auch Funktionen zur Versionsverwaltung der verwalteten Objekte.
 
-**GitHub** ist ein webbasierter Online-Dienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt. Namensgebend war das Versionsverwaltungssystem Git. Zusätzlich bietet er diverse Management und Bug-Tracking-Funktionalitäten.
+**Git**
+> Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
 
-**GitLab** ist eine Webanwendung zur Versionsverwaltung für Softwareprojekte auf Basis von git. Sie bietet diverse Management und Bug-Tracking-Funktionalitäten, sowie mit GitLab CI ein System zur kontinuierlichen Integration.
+**GitHub** 
+> GitHub ist ein webbasierter Online-Dienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt. Namensgebend war das Versionsverwaltungssystem Git. Zusätzlich bietet er diverse Management und Bug-Tracking-Funktionalitäten.
 
-**Markdown** ist eine vereinfachte Auszeichnungssprache deren Ziel es ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
+**GitLab** 
+> GitLab ist eine Webanwendung zur Versionsverwaltung für Softwareprojekte auf Basis von git. Sie bietet diverse Management und Bug-Tracking-Funktionalitäten, sowie mit GitLab CI ein System zur kontinuierlichen Integration.
 
-
-
+**Markdown**
+> Markdown ist eine vereinfachte Auszeichnungssprache deren Ziel es ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
 
 
 
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Apache_36x36.png "Apache") 03 - Apache + MySQL
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Nach den vorhergehenden Theorie-Inputs geht es nun mehr und mehr in die Praxis. In diesem Abschnitt wird der Apache Webserver installiert und die MySQL-Datenbank auf der Vagrant-VM eingerichtet.
 
@@ -653,17 +656,17 @@ Mittels einer Kombination von **Linux** (Ubuntu basiert auf Linux bzw. Debian), 
 
 Dazu haben wir verwendet:
 
- **HTTP** <br>
- Das Hypertext Transfer Protocol (HTTP) ist ein Protokoll zur Übertragung von Nachrichten und Daten. Es wird hauptsächlich eingesetzt, um Webseiten (Hypertext-Dokumente) aus dem World Wide Web (WWW) in einen Webbrowser zu laden. Es ist jedoch nicht prinzipiell darauf beschränkt und auch als allgemeines Dateiübertragungsprotokoll sehr verbreitet.
+ **HTTP**
+ > Das Hypertext Transfer Protocol (HTTP) ist ein Protokoll zur Übertragung von Nachrichten und Daten. Es wird hauptsächlich eingesetzt, um Webseiten (Hypertext-Dokumente) aus dem World Wide Web (WWW) in einen Webbrowser zu laden. Es ist jedoch nicht prinzipiell darauf beschränkt und auch als allgemeines Dateiübertragungsprotokoll sehr verbreitet.
 
- **REST** <br>
- Representational State Transfer (REST) bezeichnet ein Programmierparadigma für verteilte Systeme. REST ist eine Abstraktion der Struktur und des Verhaltens des World Wide Web. REST fordert, dass eine Web-Adresse genau einen Seiteninhalt repräsentiert, und dass ein Web-/REST-Server auf mehrfache Anfragen mit demselben URI auch mit demselben Webseiteninhalt antwortet.
+ **REST**
+ > Representational State Transfer (REST) bezeichnet ein Programmierparadigma für verteilte Systeme. REST ist eine Abstraktion der Struktur und des Verhaltens des World Wide Web. REST fordert, dass eine Web-Adresse genau einen Seiteninhalt repräsentiert, und dass ein Web-/REST-Server auf mehrfache Anfragen mit demselben URI auch mit demselben Webseiteninhalt antwortet.
 
- **CGI** <br>
- Das Common Gateway Interface (CGI) ist ein Standard für den Datenaustausch zwischen einem Webserver und dritter Software, die Anfragen bearbeitet. CGI ist eine schon länger bestehende Variante, Webseiten dynamisch bzw. interaktiv zu machen, deren erste Überlegungen auf das Jahr 1993 zurückgehen.
+ **CGI**
+ > Das Common Gateway Interface (CGI) ist ein Standard für den Datenaustausch zwischen einem Webserver und dritter Software, die Anfragen bearbeitet. CGI ist eine schon länger bestehende Variante, Webseiten dynamisch bzw. interaktiv zu machen, deren erste Überlegungen auf das Jahr 1993 zurückgehen.
  
- **MySQL** <br>
- MySQL ist eines der weltweit verbreitetsten relationalen Datenbankverwaltungssysteme. Es ist als Open-Source-Software sowie als kommerzielle Enterprise Version für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte.
+ **MySQL**
+ > MySQL ist eines der weltweit verbreitetsten relationalen Datenbankverwaltungssysteme. Es ist als Open-Source-Software sowie als kommerzielle Enterprise Version für verschiedene Betriebssysteme verfügbar und bildet die Grundlage für viele dynamische Webauftritte.
 
 Durch das Zusammenspiel von REST und CGI kann ein HTTP Server dynamisch (HTTP GET) Inhalte anzeigen und Daten mittels HTTP POST, PUT oder DELETE empfangen. Die Methoden GET, POST, PUT und DELETE entsprechen dem REST-Paradigma.
 
@@ -672,7 +675,7 @@ Durch das Zusammenspiel von REST und CGI kann ein HTTP Server dynamisch (HTTP GE
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/NodeJS_36x36.png "NodeJS") 04 - NodeJS + MongoDB
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Neben MySQL kann auch die MongoDB-Anwendung eingesetzt werden. Dieser Variante widmen wir uns nun in diesem Kapitel.
 
@@ -848,15 +851,17 @@ Der Einsatz von MongoDBs ist in folgenden Szenarien relevant:
 
 ### Zusammenfassung
 ***
-**Node.js** ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen.
+**Node.js** 
+> Node.js ist eine serverseitige Plattform in der Softwareentwicklung zum Betrieb von Netzwerkanwendungen.
 
-**MongoDB** ist eine der marktführenden NoSQL-Datenbanken und ein sogenannter Document Store. MongoDB wurde für die heutige moderne IT-Landschaft konzipiert und erlaubt eine agilere Entwicklung und höhere Skalierbarkeit von Anwendungen.
+**MongoDB** 
+> Die MongoDB ist eine der marktführenden NoSQL-Datenbanken und ein sogenannter Document Store. MongoDB wurde für die heutige moderne IT-Landschaft konzipiert und erlaubt eine agilere Entwicklung und höhere Skalierbarkeit von Anwendungen.
 
 
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Software-Konfiguration_36x36.png "Software-Konfiguration") 05 - Software-Konfiguration
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Das war es grundsätzlich schon mit der Praxis! Wir wollen jetzt in diesem Abschnitt noch ein wenig vertiefter in die Strukturen von Linux- bzw. Unix-Systemen einsteigen.
 
@@ -997,7 +1002,7 @@ sed, cat etc. sind Tools zur Bearbeitung von Konfigurationsdateien.
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Service-Konfiguration_36x36.png "Service-Konfiguration") 06 - Service-Konfiguration
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Nach den vorhergehenden Theorie-Inputs geht es nun mehr und mehr in die Praxis. In diesem Abschnitt wird der Apache Webserver installiert und die MySQL-Datenbank eingerichtet.
 
@@ -1098,6 +1103,6 @@ Anacron ist ein cron-ähnlicher Taskplaner, allerdings erfordert er nicht das ko
 ![](https://raw.githubusercontent.com/TacoNaco47/M300_20_Prototyping/master/images/Reflexion_36x36.png "Reflexion") 07 - Reflexion
 ======
 
-> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping)
+> [⇧ **Nach oben**](https://github.com/TacoNaco47/M300_20_Prototyping#m300---prototyping-20)
 
 Die Erarbeitung dieses Abschnittes hat mir sehr viel Freude bereitet und ich konnte einiges lernen. Jedoch waren die Aufgabenstellungen teilweise etwas unkalr oder sogar falsch formuliert, wodurch ich viel Geduld und Zeit aufwenden musste. Mit meinem Ergebnis bin ich jedoch sehr zufrieden und ich hoffe, dass durch diese Dokumentation bzw. durch dieses Repository die Aufgaben verständlicher wirken.
